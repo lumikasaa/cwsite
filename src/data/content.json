@@ -1,0 +1,43 @@
+{
+    "Day 0": {
+        "content":[
+        {
+            "id": "day0-1",
+            "title": "Task 0",
+            "content": "This is the content for Day 0."
+        }
+    ],
+    "id": "day0"
+    },
+    "Day 1": {
+        "content":[
+        {
+            "id": "day1-1",
+            "title": "Task 1",
+            "content": "This is the content for Day 1."
+        }
+    ],
+    "id": "day1"
+    },
+    "Week 1": {
+        "content":[
+        {
+            "id": "week1-1",
+            "title": "Task 2",
+            "content": "This is the content for Week 1."
+        }
+    ],
+    "id": "week1"
+
+    },
+    "General goals": {
+        "content":[
+        {
+            "id": "general-1",
+            "title": "Task 3",
+            "content": "This is the content for General goals."
+        }
+    ],
+    "id": "general"
+    }
+}
