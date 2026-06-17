@@ -5,14 +5,12 @@ import IconButton from '@mui/material/IconButton';
 import Checkbox from "@mui/material/Checkbox";
 import Description from "./Description";
 
-const Task = ({content, hide}) => {
+const Task = ({content, hide, func}) => {
 
-  const [completed, setCompleted] = useState(false);
   const [opened, setOpened] = useState(false);
 
   const completeClicked = () => {
-    const changed = !completed
-    setCompleted(changed)
+    func(content.id)
   }
 
   const openClicked = () => {
@@ -22,15 +20,15 @@ const Task = ({content, hide}) => {
 
   return (
     <>
-    {(!hide || !completed) && (
+    {(!hide || !content.completed) && (
     <div>
       <div>
-        {content.title} 
         <IconButton aria-label="restartalticon" onClick={openClicked}>
           {opened ? (<ExpandLessRoundedIcon/>)
                   : (<ExpandMoreRoundedIcon/>)}
           </IconButton>
-        <Checkbox onClick={completeClicked} checked={completed}  />
+                {content.title} 
+        <Checkbox onClick={completeClicked} checked={content.completed}  />
       </div>
       {opened && (<Description content={content.content} />)}
       </div>)}
