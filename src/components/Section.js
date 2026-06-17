@@ -38,7 +38,7 @@ const Section = ({content, title, hide, func, id, completed}) => {
 
   return (
     <>
-    <div style={{width: '80%'}}>
+    <div style={{width: '95%'}}>
       <Box sx={sx} style={style}>
         <IconButton aria-label="restartalticon" onClick={openClicked}>
           {opened ? (<ExpandLessRoundedIcon/>)

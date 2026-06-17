@@ -40,9 +40,11 @@ const Cwguide = () => {
   return (
 
     <div>
-      <h1>Lumi's quick CW start guide</h1>
-      <div>Hide completed <Checkbox onClick={hideClick} checked={hide}/></div>
-      {Object.keys(data).map((key) => (
+
+      <div style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', justifyContent: 'center', maxWidth: '95%', width: '1000px'}}>
+        <h1>Lumi's quick CW start guide</h1>
+        <div>Hide completed <Checkbox onClick={hideClick} checked={hide}/></div>
+        {Object.keys(data).map((key) => (    
         <Section content={data[key].content}
                key={data[key].id}
                title={key}
@@ -51,6 +53,7 @@ const Cwguide = () => {
                id={data[key].id}
                completed={data[key].completed} />
         ))}
+        </div>
     </div>
 
   );
