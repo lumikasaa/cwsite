@@ -44,7 +44,7 @@ const Section = ({content, title, hide, func, id, completed}) => {
           {opened ? (<ExpandLessRoundedIcon/>)
                   : (<ExpandMoreRoundedIcon/>)}
           </IconButton>
-          <Box sx={{flexGrow: 1}}>{title} </Box>
+          <Box sx={{flexGrow: 1}} onClick={openClicked}>{title} </Box>
         <Checkbox onClick={completeClicked} checked={completed}  />
       </Box>
       <div>

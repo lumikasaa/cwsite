@@ -44,7 +44,7 @@ const Task = ({content, hide, func}) => {
           {opened ? (<ExpandLessRoundedIcon/>)
                   : (<ExpandMoreRoundedIcon/>)}
           </IconButton>
-                <Box sx={{flexGrow: 1}}>{content.title}</Box> 
+                <Box sx={{flexGrow: 1}} onClick={openClicked}>{content.title}</Box> 
         <Checkbox onClick={completeClicked} checked={content.completed}  />
       </Box>
       {opened && (<Description content={content.content} completed={content.completed} />)}
