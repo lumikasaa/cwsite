@@ -23,11 +23,13 @@ const Cwguide = () => {
     for (let key in content) {
       if(content[key]["id"] === id) {
         content[key]["completed"] = !content[key]["completed"]
+        localStorage.setItem(id, content[key]["completed"])
       }
 
       for (let i = 0; i < content[key]["content"].length; i++) {
         if(content[key]["content"][i]["id"] === id) {
           content[key]["content"][i]["completed"] = !content[key]["content"][i]["completed"]
+          localStorage.setItem(id, content[key]["content"][i]["completed"])
         }
         
       }
@@ -38,7 +40,7 @@ const Cwguide = () => {
   return (
 
     <div>
-      <h1>Guide</h1>
+      <h1>Lumi's quick CW start guide</h1>
       <div>Hide completed <Checkbox onClick={hideClick} checked={hide}/></div>
       {Object.keys(data).map((key) => (
         <Section content={data[key].content}

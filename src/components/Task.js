@@ -4,8 +4,25 @@ import ExpandMoreRoundedIcon from '@mui/icons-material/ExpandMoreRounded';
 import IconButton from '@mui/material/IconButton';
 import Checkbox from "@mui/material/Checkbox";
 import Description from "./Description";
+import Box, { BoxProps } from '@mui/material/Box';
+
+
+const sx = { justifyContent: 'space-between', 
+             display: 'flex',
+
+}
+
 
 const Task = ({content, hide, func}) => {
+
+  const style = {
+  p: 1,
+  margin: '5px 6px 0px 20px',
+  border: '2px solid #A000A0',
+  alignItems: 'center',
+  backgroundColor: content.completed ? '#99EDCC' : '#ffb4c6',
+  fontWeight: 'bold'
+}
 
   const [opened, setOpened] = useState(false);
 
@@ -22,15 +39,15 @@ const Task = ({content, hide, func}) => {
     <>
     {(!hide || !content.completed) && (
     <div>
-      <div>
+      <Box style={style} sx={sx}>
         <IconButton aria-label="restartalticon" onClick={openClicked}>
           {opened ? (<ExpandLessRoundedIcon/>)
                   : (<ExpandMoreRoundedIcon/>)}
           </IconButton>
-                {content.title} 
+                <Box sx={{flexGrow: 1}}>{content.title}</Box> 
         <Checkbox onClick={completeClicked} checked={content.completed}  />
-      </div>
-      {opened && (<Description content={content.content} />)}
+      </Box>
+      {opened && (<Description content={content.content} completed={content.completed} />)}
       </div>)}
       </>
   );

@@ -3,8 +3,106 @@
         "content":[
         {
             "id": "day0-1",
-            "title": "Task 0",
-            "content": "This is the content for Day 0.",
+            "title": "MVP Rewards",
+            "content": ["Claim any MVP weekly rewards you may have."],
+            "completed": false
+        },
+        {
+            "id": "day0-2",
+            "title": "Tera Blink",
+            "content": ["Complete Tera Blink, get 5th job."],
+            "completed": false
+        },
+        {
+            "id": "day0-3",
+            "title": "Auto Harvest",
+            "content": ["Learn professions and claim your auto harvest. Start if not done today."],
+            "completed": false
+        },
+        {
+            "id": "day0-4",
+            "title": "Start all new events",
+            "content": ["- Raising Ellanos",
+                        "- Tallahart Fantasia (Remember to check in and put skill points in MP)",
+                        "- Phantasmal Echoes",
+                        "- Challenger Partners",
+                        "- Challenger Pass",
+                        "- Arcane Seal"],
+            "completed": false
+        },
+        {
+            "id": "day0-5",
+            "title": "Join a guild",
+            "content": ["Optionally do a quick culvert just in case guild points are given at reset."],
+            "completed": false
+        },
+        {
+            "id": "day0-6",
+            "title": "4x Strawberry Farm",
+            "content": ["IMPORTANT: Be careful with how much time you have. If time is short, skip the leveling sections and try to get some bosses done.",
+                        "Erel and Sia can ignore this part with a paid pass.",
+                        "Claim 3 Strawberry farms from check in and one from Summer Countdown. Use all 4.",
+                        "Remember to use 5th job stones, when one of them is filled, exit, use the exp potion, and use the next stone."],
+            "completed": false
+        },
+        {
+            "id": "day0-7",
+            "title": "Kill 2000 enemies",
+            "content": ["Complete any Arcane River dailies you are able to while doing so.",
+                        "Claim 800 Illusion Coins from Raising Ellanos event.",
+                        "Complete Challenger World daily check-in.",
+                        "OPTIONALLY: You can log onto your main to kill 4k monsters, if you think that is a better choice."],
+            "completed": false
+        },
+        {
+            "id": "day0-8",
+            "title": "4x Strawberry Farm",
+            "content": ["Use 800 Illusion Coins to buy 4 Golden Strawberry Farm Tickets and complete them."],
+            "completed": false
+        },
+        {
+            "id": "day0-9",
+            "title": "Weekly and Daily Bosses",
+            "content": ["Ideally you should try to kill enough for 750mil mesos.",
+                        "- Prioritize Chaos Pink Bean, Chaos Papulatus, Princess NO and Normal Cygnus",
+                        "- Princess NO for Kanna's Treasure and secondary pieces",
+                        "- Normal Cygnus if you are a shield user",
+                        "- Chaos Pink Bean for Pink Bean Cup and Black Bean Mark (you get a free 15* Belt from Hyper Burning MAX, but keep the belt too)",
+                        "- Chaos Papulatus for Papulatus Mark"],
+            "completed": false
+        },
+        {
+            "id": "day0-10",
+            "title": "Meso Shop",
+            "content": ["Purchase 10x Express Booster and 30x Sealing Wand.",
+                        "This should cost 750mil, but the price of Express Boosters was raised, so Sealing Wands could be more expensive as well."],
+            "completed": false
+        },
+        {
+            "id": "day0-11",
+            "title": "Buy 3x Coupons",
+            "content": ["Challenger World Shop has 7x of them weekly.",
+                        "If you were able to defeat Princess No or a harder boss, you can buy 7x more from Phantasmal Echoes shop."],
+            "completed": false
+        },
+        {
+            "id": "day0-12",
+            "title": "Reward Point Shop",
+            "content": ["OPTIONAL!",
+                        "You can use Reward Points to get 3 pet slots, 20 Monster Park Tickets, 5 Solid Cubes and 5 Bright Cubes."],
+            "completed": false
+        },
+        {
+            "id": "day0-13",
+            "title": "7x Monster Park",
+            "content": ["Run Monster Park 7 times. MAKE SURE you have time for this, skip some of the previous tasks if you do not have time."],
+            "completed": false
+        },
+        {
+            "id": "day0-13",
+            "title": "Arcane River Weeklies",
+            "content": ["If you have time, complete any missing Arcane River Dailies and Weeklies.",
+                        "If you have even more time, you can consider using some VIP boosters, but you'd generally want to do this before the MP runs."],
             "completed": false
         }
     ],
@@ -14,9 +112,59 @@
     "Day 1": {
         "content":[
         {
+            "id": "day1-0",
+            "title": "Shine Pass",
+            "content": ["COMPLETELY OPTIONAL!!!",
+                        "If you want to buy the pass and you are not maining Erel/Sia, creating either and leveling them to 200 for transferable rewards does save your main a lot of time.",
+                        "Up to level 101 you can do story, after that you can use some Strawberry Farms.",
+                        "DISCLAIMER: Make sure that the Shine Pass paid rewards are actually transferable before doing this!",
+                        "If patch notes are correct, you should be able to move 3x Mag Pot, 10x VIP booster, 30 day vac pet and an exp title.",
+                        "If you are confident that you have enough time, you can do this on day 0."],
+            "completed": false
+        },
+        {
             "id": "day1-1",
-            "title": "Task 1",
-            "content": "This is the content for Day 1.",
+            "title": "Start Threads of Fate",
+            "content": ["Unlock 1 NPC so you can talk to them every 30 minutes to increase Closeness.",
+                        "Once you reach 50 closeness, check what you can ask them. If it's herbs, you should go unlock the second NPC asap as well."],
+            "completed": false
+        },
+        {
+            "id": "day1-2",
+            "title": "Create a Zero",
+            "content": ["Assuming that you didn't create a second character yet, Zero can be created in about 30 seconds for a bit of free attack."],
+            "completed": false
+        },
+        {
+            "id": "day1-3",
+            "title": "Meso/Drop Gear",
+            "content": ["If you are going to farm, start building your meso/drop gear. Summer Countdown gives resources to help with rings.",
+                        "If you need another ring, NLC questline takes about 5 minutes to get you a Treasure Hunter John's Ring.",
+                        "Buy Greed Pendant from Monster park and Cube a line of Item Droprate on it."],
+            "completed": false
+        },
+        {
+            "id": "day1-4",
+            "title": "Unlock Second Familiar Slot",
+            "content": ["Unlock at least 1 Familiar slot, unlock the rest when you level up and get to higher areas in Grandis (those badges are much easier to obtain)",
+                        "- Recommended Familiar badges that are not too hard to get",
+                        "- Oppressor Badge",
+                        "- Starter Badge",
+                        "- Lion Badge",
+                        "- Void Badge",
+                        "- Labyrinth Badge",
+                        "- Apocalypse Badge",
+                        "- Ocean Badge",
+                        "- Swamp Badge",
+                        "- Holy Badge",
+                        "- Wasteland Badge (needs level 265)",
+                        "- Researcher Badge (needs level 275)"],
+            "completed": false
+        },
+        {
+            "id": "day1-5",
+            "title": "Reach level 260",
+            "content": ["This might take quite a lot of hours in limina. It is recommended to do your Monster Park runs once you reach level 255, if the alternative option is grinding."],
             "completed": false
         }
     ],
@@ -26,26 +174,25 @@
     "Week 1": {
         "content":[
         {
+            "id": "week1-0",
+            "title": "Tera Burn a Cygnus Knight to level 150",
+            "content": ["- Gives you max level attack buff",
+                        "- You can now delete your zero",
+                        "- Make one that you dont have yet, you can transfer it to Heroic later (you can also finish the Tera Burn to 200 at some point)"],
+            "completed": false
+        },
+        {
             "id": "week1-1",
-            "title": "Task 2",
-            "content": "This is the content for Week 1.",
+            "title": "Afterlands",
+            "content": ["Do Afterlands questline for free permanent totems",
+                        "- https://www.reddit.com/r/Maplestory/comments/8fgfty/afterlands_guide_fastest_way_possible_no_bugs/",
+                        "- Another alternative is doing Yu Garden questline for better totems, but they last 30 days and the droprate on the Incense Burner is VERY LOW",
+                        "- You can also mix&match getting the 2 easier ones from Yu Garden, and then use one Afterlands totem of your main stat as the 3rd one!"],
             "completed": false
         }
     ],
     "id": "week1",
     "completed": false
 
-    },
-    "General goals": {
-        "content":[
-        {
-            "id": "general-1",
-            "title": "Task 3",
-            "content": "This is the content for General goals.",
-            "completed": false
-        }
-    ],
-    "id": "general",
-    "completed": false
     }
 }
